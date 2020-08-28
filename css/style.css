@@ -1,0 +1,172 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{}
+.container {
+	width: 80%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width: 20%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 80%;
+	float: right;
+}
+
+.menu ul{
+    float: right;
+}
+.menu ul li{
+	float:left;
+	list-style-type: none;
+}
+.menu ul li a{
+	font-family:sans-serif;
+	font-size: 18px;
+	font-weight:700;
+	color: #535D69;
+	text-decoration:none;
+	padding: 0 10px;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner-section{background-image: url('../images/business.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 120px 0;
+}
+.b_content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 50%;
+	border: 1px solid white;
+}
+.b_content h1{
+	/*font-family:sans-serif;*/
+	font-size: 58px;
+	font-weight: 700px;
+	color: white ;
+	letter-spacing: 2px;
+	text-transform: capitalize; 
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.b_content p{
+	font-family:sans-serif; 
+	font-size: 18px;
+	font font-weight: 400;
+	color: white ;
+	margin-top: 0;
+	margin-bottom: 15px;
+}  
+.b_content button{
+	width: 250px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family:sans-serif; 
+	font-size: 16px;
+	font font-weight: 400;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+/*banner start*/
+/*how_it_work start*/
+	.how_it_work{
+		padding: 100px 0;
+	}
+	.first_part{
+		width: 70%;
+		/*border: 1px solid red;*/
+		margin: 0 auto;
+		font-family: sans-serif;
+		text-align: center;
+		margin-bottom: 70px;
+	}
+	.first_part h1{
+		font-size: 30px;
+		color: #1f1f1f;
+		text-transform: capitalize;
+		margin: 0 0 30px;
+	}
+	.first_part p{
+		font-size: 17px;
+		color: #525C68;
+		line-height: 23px;
+		margin: 0;
+	}
+	 .scound_part{
+	 	overflow: hidden;
+	 }
+	 .single_item{
+	 	float: left;
+	 	width: 24%;
+	 	/*border: 1px solid black;*/
+	 	text-align: center;
+	 	padding: 0 1.5%;
+	 	margin: 0px 3.16%;
+	 }
+	 .single_item img{
+	 	width: 50%;
+	 }
+	 .single_item p{
+	 	font-family: sans-serif;
+	 	font-size: 18px;
+	 	font-weight: 700;
+	 	color: #1f1f1f; 
+	 }
+/*how_it_work end*/
+/*process section start*/
+
+/*process section end*/
+.process{}
+.process_content{}
+.process_content h2{
+	font-family: sans-serif;
+	font-size: 25px;
+	width: 700;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.process_content p{
+	font-size: 16px; 
+	font-weight: 700;
+	color: E8E8E8;
+	line-height: 1.5; 
+}
+.process_content button{
+	width: 250px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family:sans-serif; 
+	font-size: 16px;
+	font font-weight: 400;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.col-6{
+	float: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+	
+
